@@ -36,6 +36,18 @@
             bindings = <&kp LANG2>;
         };
 
+        combo_copy {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&kp RC(C)>;
+        };
+
+        combo_paste {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&kp RC(V)>;
+        };
+
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
@@ -195,7 +207,7 @@
             label = "MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &kp C_AC_BACK  &mkp MB1  &mkp MB3  &mkp MB2   &kp C_AC_FORWARD
-&trans  &trans  &trans  &trans  &trans  &kp RC(C)  &trans    &trans    &kp RC(C)  &kp RC(V)
+&trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans    &kp RC(C)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans
             >;
