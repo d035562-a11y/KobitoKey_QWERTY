@@ -141,10 +141,10 @@
         default_layer {
             label = "DEF";
             bindings = <
-&kp Q                &kp W     &kp E             &kp R                   &kp T      &kp Y     &kp U        &kp I             &kp O        &lt 7 P
-&kp A                &kp S     &kp D             &kp F                   &kp G      &kp H     &kp J        &kp K             &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z          &kp X     &kp C             &kp V                   &kp B      &kp N     &kp M        &kp COMMA         &kp DOT      &mt RSHFT SLASH
-&mt LCMD LANGUAGE_2  &kp LALT  &mt LEFT_SHIFT B  &mt LEFT_CONTROL SPACE  &lt 5 TAB  &kp BSPC  &lt 3 ENTER  &lt 10 RIGHT_ALT  &lt 8 UNDER  &lt 8 LANGUAGE_1
+&kp Q                &kp W     &kp E             &kp R        &kp T                 &kp Y     &kp U        &kp I            &kp O        &lt 7 P
+&kp A                &kp S     &kp D             &kp F        &kp G                 &kp H     &kp J        &kp K            &kp L        &mt RIGHT_CONTROL MINUS
+&mt LSHFT Z          &kp X     &kp C             &kp V        &kp B                 &kp N     &kp M        &kp COMMA        &kp DOT      &mt RSHFT SLASH
+&mt LCMD LANGUAGE_2  &kp LALT  &mt LEFT_SHIFT B  &lt 5 SPACE  &mt LEFT_CONTROL TAB  &kp BSPC  &lt 3 ENTER  &lt 9 RIGHT_ALT  &lt 8 UNDER  &lt 8 LANGUAGE_1
             >;
         };
 
@@ -153,10 +153,10 @@
         us_defo {
             label = "US_D";
             bindings = <
-&kp Q               &kp W     &kp E      &kp R        &kp T      &kp Y     &kp U        &kp I        &kp O        &lt 7 P
-&mt LEFT_CONTROL A  &kp S     &kp D      &kp F        &kp G      &kp H     &kp J        &kp K        &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z         &kp X     &kp C      &kp V        &kp B      &kp N     &kp M        &kp COMMA    &kp DOT      &mt RSHFT SLASH
-&kp LCMD            &kp LALT  &kp LSHFT  &lt 4 SPACE  &lt 9 TAB  &kp BSPC  &lt 2 ENTER  &lt 4 LSHFT  &lt 8 MINUS  &lt 8 RIGHT_ALT
+&kp Q        &kp W     &kp E      &kp R        &kp T                 &kp Y     &kp U        &kp I        &kp O        &lt 7 P
+&kp A        &kp S     &kp D      &kp F        &kp G                 &kp H     &kp J        &kp K        &kp L        &mt RIGHT_CONTROL MINUS
+&mt LSHFT Z  &kp X     &kp C      &kp V        &kp B                 &kp N     &kp M        &kp COMMA    &kp DOT      &mt RSHFT SLASH
+&kp LCMD     &kp LALT  &kp LSHFT  &lt 4 SPACE  &mt LEFT_CONTROL TAB  &kp BSPC  &lt 2 ENTER  &lt 9 LSHFT  &lt 8 MINUS  &lt 8 RIGHT_ALT
             >;
         };
 
