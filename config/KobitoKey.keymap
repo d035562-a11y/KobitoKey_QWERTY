@@ -141,10 +141,10 @@
         default_layer {
             label = "DEF";
             bindings = <
-&kp Q                &kp W     &kp E      &kp R        &kp T       &kp Y     &kp U        &kp I        &kp O        &lt 7 P
-&mt LEFT_CONTROL A   &kp S     &kp D      &kp F        &kp G       &kp H     &kp J        &kp K        &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z          &kp X     &kp C      &kp V        &kp B       &kp N     &kp M        &kp COMMA    &kp DOT      &mt RSHFT SLASH
-&mt LCMD LANGUAGE_2  &kp LALT  &kp LSHFT  &lt 5 SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &lt 5 LSHFT  &lt 8 UNDER  &lt 8 LANGUAGE_1
+&kp Q                &kp W     &kp E             &kp R                   &kp T      &kp Y     &kp U        &kp I             &kp O        &lt 7 P
+&kp A                &kp S     &kp D             &kp F                   &kp G      &kp H     &kp J        &kp K             &kp L        &mt RIGHT_CONTROL MINUS
+&mt LSHFT Z          &kp X     &kp C             &kp V                   &kp B      &kp N     &kp M        &kp COMMA         &kp DOT      &mt RSHFT SLASH
+&mt LCMD LANGUAGE_2  &kp LALT  &mt LEFT_SHIFT B  &mt LEFT_CONTROL SPACE  &lt 5 TAB  &kp BSPC  &lt 3 ENTER  &lt 10 RIGHT_ALT  &lt 8 UNDER  &lt 8 LANGUAGE_1
             >;
         };
 
@@ -201,10 +201,10 @@
         NUM_JIS {
             label = "NUM_JIS";
             bindings = <
-&kp PAGE_UP  &kp F2    &kp UP    &kp F4     &kp MINUS     &kp SLASH    &kp N7  &kp N8  &kp N9   &kp MINUS
-&trans       &kp LEFT  &kp DOWN  &kp RIGHT  &kp LS(SEMI)  &kp RS(SQT)  &kp N4  &kp N5  &kp N6   &kp RS(SEMICOLON)
-&kp N0       &kp F7    &kp F8    &kp F11    &trans        &kp DOT      &kp N1  &kp N2  &kp N3   &kp ENTER
-&trans       &trans    &trans    &trans     &trans        &trans       &kp N0  &kp N0  &kp DOT  &trans
+&kp PAGE_UP  &kp F2    &kp UP    &kp F4     &kp MINUS     &kp SLASH    &kp N7  &kp N8  &kp N9        &kp MINUS
+&trans       &kp LEFT  &kp DOWN  &kp RIGHT  &kp LS(SEMI)  &kp RS(SQT)  &kp N4  &kp N5  &kp N6        &kp RS(SEMICOLON)
+&kp N0       &kp F7    &kp F8    &kp F11    &trans        &kp DOT      &kp N1  &kp N2  &kp N3        &kp ENTER
+&trans       &trans    &trans    &trans     &trans        &trans       &kp N0  &kp N0  &kp NUMBER_0  &trans
             >;
         };
 
