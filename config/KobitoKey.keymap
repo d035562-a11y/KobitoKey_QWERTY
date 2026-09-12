@@ -48,6 +48,13 @@
             bindings = <&kp RC(V)>;
         };
 
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            layers = <0 1>;
+            bindings = <&kp DEL>;
+        };
+
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
@@ -135,9 +142,9 @@
             label = "DEF";
             bindings = <
 &kp Q                &kp W     &kp E      &kp R        &kp T       &kp Y     &kp U        &kp I      &kp O        &lt 7 P
-&lt 5 A              &kp S     &kp D      &kp F        &kp G       &kp H     &kp J        &kp K      &kp L        &mt RIGHT_CONTROL MINUS
+&kp A                &kp S     &kp D      &kp F        &kp G       &kp H     &kp J        &kp K      &kp L        &mt RIGHT_CONTROL MINUS
 &mt LSHFT Z          &kp X     &kp C      &kp V        &kp B       &kp N     &kp M        &kp COMMA  &kp DOT      &mt RSHFT SLASH
-&mt LCMD LANGUAGE_2  &kp LALT  &kp LSHFT  &mt LCTRL SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &kp LSHFT  &lt 8 UNDER  &mt RIGHT_ALT LANGUAGE_1
+&mt LCMD LANGUAGE_2  &kp LALT  &kp LSHFT  &mt LCTRL SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &lt 5 LSHFT  &lt 8 UNDER  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -147,9 +154,9 @@
             label = "US_D";
             bindings = <
 &kp Q     &kp W     &kp E      &kp R        &kp T      &kp Y     &kp U        &kp I      &kp O        &lt 7 P
-&lt 4 A  &kp S     &kp D      &kp F        &kp G      &kp H     &kp J        &kp K      &kp L        &mt RIGHT_CONTROL MINUS
+&kp A  &kp S     &kp D      &kp F        &kp G      &kp H     &kp J        &kp K      &kp L        &mt RIGHT_CONTROL MINUS
 &mt LSHFT Z  &kp X     &kp C      &kp V        &kp B      &kp N     &kp M        &kp COMMA  &kp DOT      &mt RSHFT SLASH
-&kp LCMD  &kp LALT  &kp LSHFT  &mt LCTRL SPACE  &lt 9 TAB  &kp BSPC  &lt 2 ENTER  &kp LSHFT  &lt 8 MINUS  &kp RSHFT
+&kp LCMD  &kp LALT  &kp LSHFT  &mt LCTRL SPACE  &lt 9 TAB  &kp BSPC  &lt 2 ENTER  &lt 4 LSHFT  &lt 8 MINUS  &kp RSHFT
             >;
         };
 
@@ -206,7 +213,7 @@
         MOUSE {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp C_AC_BACK  &mkp MB1  &mkp MB3  &mkp MB2   &kp C_AC_FORWARD
+&trans  &trans  &trans  &trans  &trans  &kp C_AC_BACK  &mkp MB1  &mkp MB3  &mkp MB2   &trans
 &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans    &kp RC(C)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans
