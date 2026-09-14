@@ -153,10 +153,10 @@
         us_defo {
             label = "US_D";
             bindings = <
-&kp Q        &kp W     &kp E                        &kp R        &kp T      &kp Y     &kp U        &kp I                       &kp O        &lt 7 P
-&kp A        &kp S     &kp D                        &kp F        &kp G      &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z  &kp X     &kp C                        &kp V        &kp B      &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
-&kp LCMD     &kp LALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 4 SPACE  &lt 9 TAB  &kp BSPC  &lt 2 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 8 MINUS  &mt RIGHT_ALT LANGUAGE_1
+&kp Q        &kp W           &kp E                        &kp R        &kp T      &kp Y     &kp U        &kp I                       &kp O        &lt 7 P
+&kp A        &kp S           &kp D                        &kp F        &kp G      &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_CONTROL MINUS
+&mt LSHFT Z  &kp X           &kp C                        &kp V        &kp B      &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
+&kp LCMD     &lt 8 LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 4 SPACE  &lt 9 TAB  &kp BSPC  &lt 2 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 8 MINUS  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
