@@ -18,12 +18,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_eisu {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LANG2>;
-        };
-
         combo_kana {
             timeout-ms = <50>;
             key-positions = <16 17>;
@@ -34,18 +28,6 @@
             timeout-ms = <50>;
             key-positions = <17 18>;
             bindings = <&kp LANG2>;
-        };
-
-        combo_copy {
-            timeout-ms = <50>;
-            key-positions = <6 7>;
-            bindings = <&kp RC(C)>;
-        };
-
-        combo_paste {
-            timeout-ms = <50>;
-            key-positions = <7 8>;
-            bindings = <&kp RC(V)>;
         };
 
         combo_del {
@@ -59,12 +41,6 @@
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
-        };
-
-        combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp TAB>;
         };
     };
 
