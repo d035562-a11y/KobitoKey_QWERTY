@@ -141,10 +141,10 @@
         default_layer {
             label = "DEF";
             bindings = <
-&kp Q                &kp W           &kp E               &kp R        &kp T       &kp Y     &kp U        &kp I                  &kp O        &lt 7 P
-&kp A                &kp S           &kp D               &kp F        &kp G       &kp H     &kp J        &kp K                  &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z          &kp X           &kp C               &kp V        &kp B       &kp N     &kp M        &kp COMMA              &kp DOT      &mt RSHFT SLASH
-&mt LCMD LANGUAGE_2  &lt 8 LEFT_ALT  &mt LEFT_CONTROL B  &lt 5 SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT MINUS  &lt 8 UNDER  &mt RIGHT_ALT LANGUAGE_1
+&kp Q                &kp W           &kp E               &kp R        &lt 7 T     &kp Y     &kp U                    &kp I                &kp O        &lt 7 P
+&kp A                &kp S           &kp D               &kp F        &kp G       &kp H     &kp J                    &kp K                &kp L        &mt RIGHT_CONTROL MINUS
+&mt LSHFT Z          &kp X           &kp C               &kp V        &kp B       &kp N     &kp M                    &kp COMMA            &kp DOT      &mt RSHFT SLASH
+&mt LCMD LANGUAGE_2  &lt 8 LEFT_ALT  &mt LEFT_CONTROL B  &lt 5 SPACE  &lt 10 TAB  &kp BSPC  &mt RIGHT_CONTROL ENTER  &mt RIGHT_WIN MINUS  &lt 8 UNDER  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -213,10 +213,10 @@
         MOUSE {
             label = "MOUSE";
             bindings = <
-&trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans  &kp C_AC_BACK  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans    &trans    &kp RC(C)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans    &trans    &trans     &trans
+&trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans  &kp C_AC_BACK  &trans  &trans  &trans     &trans
+&trans  &trans    &trans    &trans    &trans  &trans         &trans  &trans  &kp RC(C)  &trans
+&trans  &trans    &trans    &trans    &trans  &trans         &trans  &trans  &trans     &trans
+&trans  &trans    &trans    &trans    &trans  &trans         &trans  &trans  &trans     &trans
             >;
         };
 
