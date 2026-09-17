@@ -141,10 +141,10 @@
         ARROW_US {
             label = "ARROW_US";
             bindings = <
-&kp SLASH     &kp N7  &kp N8  &kp N9  &kp MINUS  &kp RS(RG(LEFT))  &kp F2    &kp UP    &kp F4     &kp RS(RG(RIGHT))
-&kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS   &kp RG(RC(LEFT))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RG(RC(RIGHT))
-&trans        &kp N1  &kp N2  &kp N3  &trans     &trans            &kp F7    &trans    &kp F8     &kp F11
-&trans        &kp N0  &trans  &kp N0  &trans     &trans            &trans    &trans    &kp F12    &trans
+&kp SLASH     &kp N7  &kp N8  &kp N9          &kp MINUS  &kp RS(RG(LEFT))  &kp F2    &kp UP    &kp F4     &kp RS(RG(RIGHT))
+&kp ASTERISK  &kp N4  &kp N5  &kp N6          &kp PLUS   &kp RG(RC(LEFT))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RG(RC(RIGHT))
+&trans        &kp N1  &kp N2  &kp N3          &trans     &trans            &kp F7    &trans    &kp F8     &kp F11
+&trans        &kp N0  &trans  &lt 8 NUMBER_0  &trans     &trans            &trans    &trans    &kp F12    &trans
             >;
         };
 
@@ -153,10 +153,10 @@
         ARROW_JIS {
             label = "ARROW_JIS";
             bindings = <
-&kp SLASH    &kp N7  &kp N8  &kp N9  &kp MINUS     &kp RS(RG(LEFT))  &kp F2    &kp UP    &kp F4     &kp RS(RG(RIGHT))
-&kp LS(SQT)  &kp N4  &kp N5  &kp N6  &kp LS(SEMI)  &kp RC(RG(LEFT))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RG(RC(RIGHT))
-&trans       &kp N1  &kp N2  &kp N3  &trans        &trans            &kp F7    &trans    &kp F8     &kp F11
-&trans       &kp N0  &trans  &kp N0  &trans        &trans            &trans    &trans    &kp F12    &trans
+&kp SLASH    &kp N7  &kp N8  &kp N9          &kp MINUS     &kp RS(RG(LEFT))  &kp F2    &kp UP    &kp F4     &kp RS(RG(RIGHT))
+&kp LS(SQT)  &kp N4  &kp N5  &kp N6          &kp LS(SEMI)  &kp RC(RG(LEFT))  &kp LEFT  &kp DOWN  &kp RIGHT  &kp RG(RC(RIGHT))
+&trans       &kp N1  &kp N2  &kp N3          &trans        &trans            &kp F7    &trans    &kp F8     &kp F11
+&trans       &kp N0  &trans  &lt 8 NUMBER_0  &trans        &trans            &trans    &trans    &kp F12    &trans
             >;
         };
 
