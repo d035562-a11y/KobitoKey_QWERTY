@@ -42,6 +42,20 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        combo_mouse_copy {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            layers = <6>;
+            bindings = <&kp LC(C)>;
+        };
+
+        combo_mouse_paste {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            layers = <6>;
+            bindings = <&kp LC(V)>;
+        };
     };
 
     macros {
