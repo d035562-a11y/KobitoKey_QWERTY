@@ -88,10 +88,10 @@
 
     input-processors =
         <&sensor_rotation_right>,
-        <&zip_temp_layer 6 5000>; /* オートマウスレイヤーの指定とトラボ操作及びマウスボタン押下後に滞留する時間 */
+        <&zip_temp_layer 7 5000>; /* オートマウスレイヤーの指定とトラボ操作及びマウスボタン押下後に滞留する時間 */
 
     scroller {
-        layers = <7>;
+        layers = <8>;
         input-processors =
             <&sensor_rotation_right>,
             <&zip_x_scaler 0 1>,
