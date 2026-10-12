@@ -134,6 +134,7 @@
                 <&kp H>,
                 <&macro_release>,
                 <&kp GLOBE>;
+
             label = "IPAD_HOME";
         };
 
@@ -149,6 +150,7 @@
                 <&kp F>,
                 <&macro_release>,
                 <&kp GLOBE>;
+
             label = "IPAD_FULL";
         };
 
@@ -164,6 +166,7 @@
                 <&kp UP>,
                 <&macro_release>,
                 <&kp GLOBE>;
+
             label = "IPAD_RECENT";
         };
 
@@ -179,6 +182,7 @@
                 <&kp A>,
                 <&macro_release>,
                 <&kp GLOBE>;
+
             label = "IPAD_DOCK";
         };
 
@@ -194,6 +198,7 @@
                 <&kp A>,
                 <&macro_release>,
                 <&kp GLOBE &kp LSHIFT>;
+
             label = "IPAD_APPLIB";
         };
 
@@ -209,6 +214,7 @@
                 <&kp LEFT>,
                 <&macro_release>,
                 <&kp LCTRL &kp GLOBE>;
+
             label = "IPAD_LEFT";
         };
 
@@ -224,6 +230,7 @@
                 <&kp RIGHT>,
                 <&macro_release>,
                 <&kp LCTRL &kp GLOBE>;
+
             label = "IPAD_RIGHT";
         };
     };
@@ -236,10 +243,10 @@
         default_layer {
             label = "DEF";
             bindings = <
-&kp Q                &kp W           &kp E                        &kp R        &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
-&kp A                &kp S           &kp D                        &kp F        &kp G       &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z          &kp X           &kp C                        &kp V        &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
-&mt LCMD LANGUAGE_2  &lt 9 LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 6 SPACE  &lt 11 TAB  &kp BSPC  &lt 4 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 UNDER  &mt RIGHT_ALT LANGUAGE_1
+&kp Q                &kp W           &kp E                      &kp R                   &kp T      &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&kp A                &kp S           &kp D                      &kp F                   &kp G      &kp H     &kp J        &kp K                       &kp L        &mt LEFT_WIN MINUS
+&mt LSHFT Z          &kp X           &kp C                      &kp V                   &kp B      &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
+&mt LCMD LANGUAGE_2  &lt 9 LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 6 TAB  &kp BSPC  &lt 4 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 UNDER  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -248,10 +255,10 @@
         us_defo {
             label = "US_D";
             bindings = <
-&kp Q        &kp W           &kp E                        &kp R        &kp T      &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
-&kp A        &kp S           &kp D                        &kp F        &kp G      &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_CONTROL MINUS
-&mt LSHFT Z  &kp X           &kp C                        &kp V        &kp B      &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
-&kp LCMD     &lt 9 LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 5 SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS  &mt RIGHT_ALT LANGUAGE_1
+&kp Q        &kp W           &kp E                      &kp R                   &kp T      &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&kp A        &kp S           &kp D                      &kp F                   &kp G      &kp H     &kp J        &kp K                       &kp L        &mt LEFT_WIN MINUS
+&mt LSHFT Z  &kp X           &kp C                      &kp V                   &kp B      &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
+&kp LCMD     &lt 9 LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 5 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -260,9 +267,9 @@
         ipad_base {
             label = "IPAD";
             bindings = <
-&kp Q        &kp W           &kp E                        &kp R        &kp T      &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
-&kp A        &kp S           &kp D                        &kp F        &kp G      &kp H     &kp J        &kp K                       &kp L        &lt 12 MINUS
-&mt LSHFT Z  &kp X           &kp C                        &kp V        &kp B      &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
+&kp Q        &kp W           &kp E                    &kp R        &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&kp A        &kp S           &kp D                    &kp F        &kp G       &kp H     &kp J        &kp K                       &kp L        &lt 12 MINUS
+&mt LSHFT Z  &kp X           &kp C                    &kp V        &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
 &kp LCMD     &lt 9 LEFT_ALT  &mt LEFT_GUI LANGUAGE_2  &lt 5 SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
@@ -296,10 +303,10 @@
         NUM_US {
             label = "NUM_US";
             bindings = <
-&kp LS(N1)      &kp LS(N2)      &kp LS(N3)      &kp LS(N4)      &kp LS(N5)      &kp SLASH       &kp N7          &kp N8          &kp N9          &kp MINUS
-&kp COLON       &kp LS(N7)      &kp LS(N9)      &kp LS(N0)      &kp EQUAL       &kp ASTERISK    &kp N4          &kp N5          &kp N6          &kp PLUS
-&kp DQT         &kp APOS        &kp LBKT        &kp RBKT        &kp ASTERISK    &kp DOT         &kp N1          &kp N2          &kp N3          &kp ENTER
-&trans          &trans          &kp SEMI        &trans          &trans          &trans          &kp N0          &kp N0          &kp NUMBER_0    &trans
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp SLASH     &kp N7  &kp N8  &kp N9        &kp MINUS
+&kp COLON   &kp LS(N7)  &kp LS(N9)  &kp LS(N0)  &kp EQUAL     &kp ASTERISK  &kp N4  &kp N5  &kp N6        &kp PLUS
+&kp DQT     &kp APOS    &kp LBKT    &kp RBKT    &kp ASTERISK  &kp DOT       &kp N1  &kp N2  &kp N3        &kp ENTER
+&trans      &trans      &kp SEMI    &trans      &trans        &trans        &kp N0  &kp N0  &kp NUMBER_0  &trans
             >;
         };
 
@@ -308,10 +315,10 @@
         NUM_JIS {
             label = "NUM_JIS";
             bindings = <
-&kp LS(N1)      &kp LBKT        &kp LS(N3)      &kp LS(N4)      &kp LS(N5)      &kp SLASH       &kp N7          &kp N8          &kp N9          &kp MINUS
-&kp SQT         &kp LS(N6)      &kp LS(N8)      &kp LS(N9)      &kp LS(MINUS)   &kp RS(SQT)     &kp N4          &kp N5          &kp N6          &kp RS(SEMICOLON)
-&kp LS(N2)      &kp LS(N7)      &kp RBKT        &kp BSLH        &kp RS(SQT)     &kp DOT         &kp N1          &kp N2          &kp N3          &kp ENTER
-&trans          &trans          &kp SEMI        &trans          &trans          &trans          &kp N0          &kp N0          &kp NUMBER_0    &trans
+&kp LS(N1)  &kp LBKT    &kp LS(N3)  &kp LS(N4)  &kp LS(N5)     &kp SLASH    &kp N7  &kp N8  &kp N9        &kp MINUS
+&kp SQT     &kp LS(N6)  &kp LS(N8)  &kp LS(N9)  &kp LS(MINUS)  &kp RS(SQT)  &kp N4  &kp N5  &kp N6        &kp RS(SEMICOLON)
+&kp LS(N2)  &kp LS(N7)  &kp RBKT    &kp BSLH    &kp RS(SQT)    &kp DOT      &kp N1  &kp N2  &kp N3        &kp ENTER
+&trans      &trans      &kp SEMI    &trans      &trans         &trans       &kp N0  &kp N0  &kp NUMBER_0  &trans
             >;
         };
 
@@ -344,10 +351,10 @@
         SYSTEM {
             label = "SYSTEM";
             bindings = <
-&bt0_jis    &bt1_us         &bt2_us   &bt3_us   &bt4_ipad &trans  &trans  &trans  &trans  &trans
-&trans      &macro_s        &macro_d  &macro_s  &trans   &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR  &bt BT_CLR_ALL  &kp N2    &kp N3    &trans   &trans  &trans  &trans  &trans  &trans
-&trans      &trans          &trans    &trans    &trans   &trans  &trans  &trans  &trans  &bootloader
+&bt0_jis    &bt1_us         &bt2_us   &bt3_us   &bt4_ipad  &trans  &trans  &trans  &trans  &trans
+&trans      &macro_s        &macro_d  &macro_s  &trans     &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_CLR_ALL  &kp N2    &kp N3    &trans     &trans  &trans  &trans  &trans  &trans
+&trans      &trans          &trans    &trans    &trans     &trans  &trans  &trans  &trans  &bootloader
             >;
         };
 
@@ -384,10 +391,10 @@
         ipad_act {
             label = "IPAD_ACT";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp LG(TAB)    &ipad_recent  &ipad_full    &ipad_dock    &trans
-&trans  &trans  &trans  &trans  &trans  &ipad_home     &ipad_left    &kp LG(M)     &ipad_right   &trans
-&trans  &trans  &trans  &trans  &trans  &kp LG(SPACE)  &trans        &ipad_applib  &kp LG(W)     &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(TAB)    &ipad_recent  &ipad_full    &ipad_dock   &trans
+&trans  &trans  &trans  &trans  &trans  &ipad_home     &ipad_left    &kp LG(M)     &ipad_right  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LG(SPACE)  &trans        &ipad_applib  &kp LG(W)    &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans        &trans        &trans       &trans
             >;
         };
     };
