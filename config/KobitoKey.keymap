@@ -397,5 +397,27 @@
 &trans  &trans  &trans  &trans  &trans  &trans         &trans        &trans        &trans       &trans
             >;
         };
+
+        /* [13] NUM_US_OLD / [14] NUM_JIS_OLD: 数字+記号を一緒にする前の数字レイヤー(復元) */
+
+        num_us_old {
+            label = "NUM_US_OLD";
+            bindings = <
+&kp PAGE_UP  &kp F2    &kp UP    &kp F4     &kp MINUS     &kp SLASH     &kp N7  &kp N8  &kp N9        &kp MINUS
+&trans       &kp LEFT  &kp DOWN  &kp RIGHT  &kp LS(SEMI)  &kp ASTERISK  &kp N4  &kp N5  &kp N6        &kp PLUS
+&kp N0       &kp F7    &kp F8    &kp F11    &trans        &kp DOT       &kp N1  &kp N2  &kp N3        &kp ENTER
+&trans       &trans    &trans    &trans     &trans        &trans        &kp N0  &kp N0  &kp NUMBER_0  &trans
+            >;
+        };
+
+        num_jis_old {
+            label = "NUM_JIS_OLD";
+            bindings = <
+&kp PAGE_UP  &kp F2    &kp UP    &kp F4     &kp MINUS     &kp SLASH    &kp N7  &kp N8  &kp N9        &kp MINUS
+&trans       &kp LEFT  &kp DOWN  &kp RIGHT  &kp LS(SEMI)  &kp RS(SQT)  &kp N4  &kp N5  &kp N6        &kp RS(SEMICOLON)
+&kp N0       &kp F7    &kp F8    &kp F11    &trans        &kp DOT      &kp N1  &kp N2  &kp N3        &kp ENTER
+&trans       &trans    &trans    &trans     &trans        &trans       &kp N0  &kp N0  &kp NUMBER_0  &trans
+            >;
+        };
     };
 };
