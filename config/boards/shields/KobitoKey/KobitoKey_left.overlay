@@ -100,6 +100,17 @@
             <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
     };
+
+    /* iPad/iPhone用スクローラー(レイヤー14): 上下反転なし、左右のみ反転 */
+    scroller_ipad {
+        layers = <14>;
+        input-processors =
+            <&sensor_rotation_right>,
+            <&zip_x_scaler 0 1>,
+            <&zip_y_scaler 1 15>,
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
+    };
 };
 
 &zip_temp_layer {
