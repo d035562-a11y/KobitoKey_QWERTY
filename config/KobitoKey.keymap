@@ -303,10 +303,10 @@
         NUM_US {
             label = "NUM_US";
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp SLASH     &kp N7  &kp N8  &kp N9        &kp MINUS
-&kp COLON   &kp LS(N7)  &kp LS(N9)  &kp LS(N0)  &kp EQUAL     &kp ASTERISK  &kp N4  &kp N5  &kp N6        &kp PLUS
-&kp DQT     &kp APOS    &kp LBKT    &kp RBKT    &kp ASTERISK  &kp DOT       &kp N1  &kp N2  &kp N3        &kp ENTER
-&trans      &trans      &kp SEMI    &trans      &trans        &trans        &kp N0  &kp N0  &kp NUMBER_0  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp SLASH  &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS
+&kp F11  &kp F12  &kp HOME  &kp END  &kp DEL  &kp DOT  &kp N1  &kp N2  &kp N3  &kp ENTER
+&trans  &trans  &kp SEMI  &trans  &trans  &trans  &kp N0  &kp N0  &kp NUMBER_0  &trans
             >;
         };
 
@@ -315,10 +315,10 @@
         NUM_JIS {
             label = "NUM_JIS";
             bindings = <
-&kp LS(N1)  &kp LBKT    &kp LS(N3)  &kp LS(N4)  &kp LS(N5)     &kp SLASH    &kp N7  &kp N8  &kp N9        &kp MINUS
-&kp SQT     &kp LS(N6)  &kp LS(N8)  &kp LS(N9)  &kp LS(MINUS)  &kp RS(SQT)  &kp N4  &kp N5  &kp N6        &kp RS(SEMICOLON)
-&kp LS(N2)  &kp LS(N7)  &kp RBKT    &kp BSLH    &kp RS(SQT)    &kp DOT      &kp N1  &kp N2  &kp N3        &kp ENTER
-&macro_s    &macro_d    &kp SEMI    &trans      &trans         &trans       &kp N0  &kp N0  &kp NUMBER_0  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp SLASH  &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp RS(SQT)  &kp N4  &kp N5  &kp N6  &kp RS(SEMICOLON)
+&kp F11  &kp F12  &kp HOME  &kp END  &kp DEL  &kp DOT  &kp N1  &kp N2  &kp N3  &kp ENTER
+&macro_s  &macro_d  &kp SEMI  &trans  &trans  &trans  &kp N0  &kp N0  &kp NUMBER_0  &trans
             >;
         };
 
