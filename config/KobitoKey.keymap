@@ -444,7 +444,7 @@
 &kp SLASH   &kp N7  &kp N8        &kp N9          &kp EQUAL     &kp LC(LEFT)  &kp LC(LS(TAB))  &kp UP        &kp LC(TAB)    &kp LC(RIGHT)
 &kp MINUS   &kp N4  &kp N5        &kp N6          &kp ASTERISK  &trans        &kp LEFT         &kp DOWN      &kp RIGHT      &trans
 &kp PERIOD  &kp N1  &kp N2        &kp N3          &kp PLUS      &ipad_left    &kp LG(LBKT)     &kp LG(M)     &kp LG(RBKT)   &ipad_right
-&trans      &kp N0  &kp NUMBER_0  &lt 9 NUMBER_0  &trans        &trans        &trans           &trans        &trans         &kp LG(LS(N4))
+&trans      &kp N0  &kp NUMBER_0  &lt 18 NUMBER_0 &trans        &trans        &trans           &trans        &trans         &kp LG(LS(N4))
             >;
         };
 
@@ -457,6 +457,18 @@
 &kp F2          &kp F4        &kp F7     &kp F8    &kp F5      &kp LS(N2)  &kp EQUAL      &kp LS(N9)     &kp LS(N0)  &kp COLON
 &kp C_VOL_DN    &kp C_VOL_UP  &macro_s   &macro_d  &kp C_MUTE  &kp LS(N4)  &kp BSLH       &kp LBKT       &kp RBKT    &kp LS(N5)
 &trans          &trans        &trans     &trans    &trans      &kp DELETE  &trans         &trans         &trans      &kp LS(N3)
+            >;
+        };
+
+        /* [18] MAC_SYSTEM (Mac用 / ARROW(16)中のSpace位置長押し。16より優先させるため透過なし) */
+
+        mac_SYSTEM {
+            label = "MAC_SYSTEM";
+            bindings = <
+&bt0_jis    &bt1_us         &bt2_us   &bt3_us   &bt4_ipad  &none  &none  &none  &none  &none
+&ind_bat    &macro_s        &macro_d  &macro_s  &none      &none  &none  &none  &none  &none
+&bt BT_CLR  &bt BT_CLR_ALL  &kp N2    &kp N3    &none      &none  &none  &none  &none  &none
+&none       &none           &none     &none     &none      &none  &none  &none  &none  &bootloader
             >;
         };
     };
