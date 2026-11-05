@@ -34,7 +34,6 @@
         combo_del {
             timeout-ms = <50>;
             key-positions = <8 9>;
-            layers = <0 1 2 15>;
             bindings = <&kp DEL>;
         };
 
@@ -244,10 +243,10 @@
         default_layer {
             label = "DEF";
             bindings = <
-&kp Q                            &kp W           &kp E                      &kp R         &kp T       &kp Y     &kp U        &kp I                       &kp O              &lt 8 P
-&kp A                 &kp S           &kp D                      &kp F         &kp G       &kp H     &kp J        &kp K                       &kp L              &mt LEFT_WIN MINUS
-&mt LSHFT Z               &kp X  &kp C             &kp V         &kp B       &kp N     &kp M        &kp COMMA         &kp DOT  &mt RSHFT SLASH
-&mt LC(LEFT_CONTROL) LANGUAGE_2  &lt 9 LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 11 TAB  &kp BSPC  &lt 4 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 UNDER        &mt RIGHT_ALT LANGUAGE_1
+&kp Q                            &kp W           &kp E                      &kp R                   &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&kp A                            &kp S           &kp D                      &kp F                   &kp G       &kp H     &kp J        &kp K                       &kp L        &mt LEFT_WIN MINUS
+&mt LSHFT Z                      &kp X           &kp C                      &kp V                   &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
+&mt LC(LEFT_CONTROL) LANGUAGE_2  &lt 9 LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 11 TAB  &kp BSPC  &lt 4 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 UNDER  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -256,10 +255,10 @@
         us_defo {
             label = "US_D";
             bindings = <
-&kp Q               &kp W           &kp E                      &kp R         &kp T       &kp Y     &kp U        &kp I                       &kp O              &lt 8 P
-&kp A    &kp S           &kp D                      &kp F         &kp G       &kp H     &kp J        &kp K                       &kp L              &mt LEFT_WIN MINUS
-&mt LSHFT Z  &kp X  &kp C             &kp V         &kp B       &kp N     &kp M        &kp COMMA         &kp DOT  &mt RSHFT SLASH
-&kp LCMD            &lt 9 LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS        &mt RIGHT_ALT LANGUAGE_1
+&kp Q        &kp W           &kp E                      &kp R                   &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&kp A        &kp S           &kp D                      &kp F                   &kp G       &kp H     &kp J        &kp K                       &kp L        &mt LEFT_WIN MINUS
+&mt LSHFT Z  &kp X           &kp C                      &kp V                   &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RSHFT SLASH
+&kp LCMD     &lt 9 LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -429,10 +428,10 @@
         mac_base {
             label = "MAC_BASE";
             bindings = <
-&trans                            &trans  &trans  &trans                &trans                 &trans  &trans         &trans  &trans  &trans
-&trans                            &trans  &trans  &trans                &trans                 &trans  &trans         &trans  &trans  &trans
-&trans                            &trans  &trans  &trans                &trans                 &trans  &trans         &trans  &trans  &trans
-&mt LC(LEFT_CONTROL) LANGUAGE_2   &trans  &trans  &mt LEFT_GUI SPACE    &lt 17 TAB             &trans  &lt 16 ENTER   &trans  &trans  &trans
+&trans                           &trans  &trans  &trans              &trans      &trans  &trans        &trans  &trans  &trans
+&trans                           &trans  &trans  &trans              &trans      &trans  &trans        &trans  &trans  &trans
+&trans                           &trans  &trans  &trans              &trans      &trans  &trans        &trans  &trans  &trans
+&mt LC(LEFT_CONTROL) LANGUAGE_2  &trans  &trans  &mt LEFT_GUI SPACE  &lt 17 TAB  &trans  &lt 16 ENTER  &trans  &trans  &trans
             >;
         };
 
@@ -441,10 +440,10 @@
         mac_ARROW {
             label = "MAC_ARROW";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9          &kp EQUAL     &kp LC(LEFT)  &kp LC(LS(TAB))  &kp UP        &kp LC(TAB)    &kp LC(RIGHT)
-&kp MINUS   &kp N4  &kp N5        &kp N6          &kp ASTERISK  &trans        &kp LEFT         &kp DOWN      &kp RIGHT      &trans
-&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp PLUS      &ipad_left    &kp LG(LBKT)     &kp LG(M)     &kp LG(RBKT)   &ipad_right
-&trans      &kp N0  &kp NUMBER_0  &lt 18 NUMBER_0 &trans        &trans        &trans           &trans        &trans         &kp LG(LS(N4))
+&kp SLASH   &kp N7  &kp N8        &kp N9           &kp EQUAL     &kp LC(LEFT)  &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)   &kp LC(RIGHT)
+&kp MINUS   &kp N4  &kp N5        &kp N6           &kp ASTERISK  &trans        &kp LEFT         &kp DOWN   &kp RIGHT     &trans
+&kp PERIOD  &kp N1  &kp N2        &kp N3           &kp PLUS      &ipad_left    &kp LG(LBKT)     &kp LG(M)  &kp LG(RBKT)  &ipad_right
+&trans      &kp N0  &kp NUMBER_0  &lt 18 NUMBER_0  &trans        &trans        &trans           &trans     &trans        &kp LG(LS(N4))
             >;
         };
 
@@ -453,23 +452,13 @@
         mac_MAP {
             label = "MAC_MAP";
             bindings = <
-&kp LG(LS(N4))  &kp LC(UP)    &kp F11    &trans    &kp F12     &kp LS(N1)  &kp LS(SLASH)  &kp LS(GRAVE)  &kp DQT     &kp LS(N7)
-&kp F2          &kp F4        &kp F7     &kp F8    &kp F5      &kp LS(N2)  &kp EQUAL      &kp LS(N9)     &kp LS(N0)  &kp COLON
-&kp C_VOL_DN    &kp C_VOL_UP  &macro_s   &macro_d  &kp C_MUTE  &kp LS(N4)  &kp BSLH       &kp LBKT       &kp RBKT    &kp LS(N5)
-&trans          &trans        &trans     &trans    &trans      &kp DELETE  &trans         &trans         &trans      &kp LS(N3)
+&kp LG(LS(N4))  &kp LC(UP)    &kp F11   &trans    &kp F12     &kp LS(N1)  &kp LS(SLASH)  &kp LS(GRAVE)  &kp DQT     &kp LS(N7)
+&kp F2          &kp F4        &kp F7    &kp F8    &kp F5      &kp LS(N2)  &kp EQUAL      &kp LS(N9)     &kp LS(N0)  &kp COLON
+&kp C_VOL_DN    &kp C_VOL_UP  &macro_s  &macro_d  &kp C_MUTE  &kp LS(N4)  &kp BSLH       &kp LBKT       &kp RBKT    &kp LS(N5)
+&trans          &trans        &trans    &trans    &trans      &kp DELETE  &trans         &trans         &trans      &kp LS(N3)
             >;
         };
 
         /* [18] MAC_SYSTEM (Mac用 / ARROW(16)中のSpace位置長押し。16より優先させるため透過なし) */
-
-        mac_SYSTEM {
-            label = "MAC_SYSTEM";
-            bindings = <
-&bt0_jis    &bt1_us         &bt2_us   &bt3_us   &bt4_ipad  &none  &none  &none  &none  &none
-&ind_bat    &macro_s        &macro_d  &macro_s  &none      &none  &none  &none  &none  &none
-&bt BT_CLR  &bt BT_CLR_ALL  &kp N2    &kp N3    &none      &none  &none  &none  &none  &none
-&none       &none           &none     &none     &none      &none  &none  &none  &none  &bootloader
-            >;
-        };
     };
 };
