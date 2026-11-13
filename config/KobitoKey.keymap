@@ -235,9 +235,9 @@
         default_layer {
             label = "DEF";
             bindings = <
-&kp Q                            &kp W           &kp E                      &kp R                   &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
-&mt LEFT_SHIFT A                            &kp S           &kp D                      &kp F                   &kp G       &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_SHIFT MINUS
-&mt LEFT_CONTROL Z                      &kp X           &kp C                      &kp V                   &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RIGHT_CONTROL SLASH
+&kp Q                            &kp W           &kp E                    &kp R                   &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&mt LEFT_SHIFT A                 &kp S           &kp D                    &kp F                   &kp G       &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_SHIFT MINUS
+&mt LEFT_CONTROL Z               &kp X           &kp C                    &kp V                   &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RIGHT_CONTROL SLASH
 &mt LC(LEFT_CONTROL) LANGUAGE_2  &lt 9 LEFT_ALT  &mt LEFT_WIN LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 11 TAB  &kp BSPC  &lt 4 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 UNDER  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
@@ -247,10 +247,10 @@
         us_defo {
             label = "US_D";
             bindings = <
-&kp Q        &kp W           &kp E                      &kp R                   &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
-&mt LEFT_SHIFT A        &kp S           &kp D                      &kp F                   &kp G       &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_SHIFT MINUS
-&mt LEFT_CONTROL Z  &kp X           &kp C                      &kp V                   &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RIGHT_CONTROL SLASH
-&kp LCMD     &lt 9 LEFT_ALT  &mt LEFT_WIN LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS  &mt RIGHT_ALT LANGUAGE_1
+&kp Q               &kp W           &kp E                    &kp R                   &kp T       &kp Y     &kp U        &kp I                       &kp O        &lt 8 P
+&mt LEFT_SHIFT A    &kp S           &kp D                    &kp F                   &kp G       &kp H     &kp J        &kp K                       &kp L        &mt RIGHT_SHIFT MINUS
+&mt LEFT_CONTROL Z  &kp X           &kp C                    &kp V                   &kp B       &kp N     &kp M        &kp COMMA                   &kp DOT      &mt RIGHT_CONTROL SLASH
+&kp LCMD            &lt 9 LEFT_ALT  &mt LEFT_WIN LANGUAGE_2  &mt LEFT_CONTROL SPACE  &lt 10 TAB  &kp BSPC  &lt 3 ENTER  &mt RIGHT_SHIFT LANGUAGE_1  &lt 9 MINUS  &mt RIGHT_ALT LANGUAGE_1
             >;
         };
 
@@ -271,10 +271,10 @@
         ARROW_US {
             label = "ARROW_US";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9          &kp EQUAL     &kp RC(RG(LEFT))  &kp F2  &kp UP        &kp F4    &kp RG(RC(RIGHT))
-&kp MINUS   &kp N4  &kp N5        &kp N6          &kp ASTERISK  &kp LC(LS(TAB))  &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(TAB)
-&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp PLUS      &kp LA(LEFT)      &kp F7     &kp LG(DOWN)  &kp F8  &kp LA(RIGHT)
-&trans      &kp N0  &kp NUMBER_0  &lt 9 NUMBER_0  &trans        &trans            &trans           &trans        &trans         &kp LG(LS(S))
+&kp SLASH   &kp N7  &kp N8        &kp N9  &kp EQUAL     &kp RC(RG(LEFT))  &kp F2    &kp UP        &kp F4     &kp RG(RC(RIGHT))
+&kp MINUS   &kp N4  &kp N5        &kp N6  &kp ASTERISK  &kp LC(LS(TAB))   &kp LEFT  &kp DOWN      &kp RIGHT  &kp LC(TAB)
+&kp PERIOD  &kp N1  &kp N2        &kp N3  &kp PLUS      &kp LA(LEFT)      &kp F7    &kp LG(DOWN)  &kp F8     &kp LA(RIGHT)
+&trans      &kp N0  &kp NUMBER_0  &kp N0  &lt 9 TAB     &trans            &trans    &trans        &trans     &kp LG(LS(S))
             >;
         };
 
@@ -283,10 +283,10 @@
         ARROW_JIS {
             label = "ARROW_JIS";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9          &kp LS(MINUS)  &kp RC(RG(LEFT))  &kp F2  &kp UP        &kp F4    &kp RG(RC(RIGHT))
-&kp MINUS   &kp N4  &kp N5        &kp N6          &kp LS(SQT)    &kp LC(LS(TAB))            &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(TAB)
-&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp LS(SEMI)   &kp LA(LEFT)      &kp F7     &kp LG(DOWN)  &kp F8  &kp LA(RIGHT)
-&trans      &kp N0  &kp NUMBER_0  &lt 9 NUMBER_0  &trans         &trans            &trans           &trans        &trans         &kp LG(LS(S))
+&kp SLASH   &kp N7  &kp N8        &kp N9  &kp LS(MINUS)  &kp RC(RG(LEFT))  &kp F2    &kp UP        &kp F4     &kp RG(RC(RIGHT))
+&kp MINUS   &kp N4  &kp N5        &kp N6  &kp LS(SQT)    &kp LC(LS(TAB))   &kp LEFT  &kp DOWN      &kp RIGHT  &kp LC(TAB)
+&kp PERIOD  &kp N1  &kp N2        &kp N3  &kp LS(SEMI)   &kp LA(LEFT)      &kp F7    &kp LG(DOWN)  &kp F8     &kp LA(RIGHT)
+&trans      &kp N0  &kp NUMBER_0  &kp N0  &lt 9 TAB      &trans            &trans    &trans        &trans     &kp LG(LS(S))
             >;
         };
 
@@ -432,10 +432,10 @@
         mac_ARROW {
             label = "MAC_ARROW";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9           &kp EQUAL     &kp LC(LEFT)  &kp F2  &kp UP     &kp F4   &kp LC(RIGHT)
-&kp MINUS   &kp N4  &kp N5        &kp N6           &kp ASTERISK  &kp LC(LS(TAB))        &kp LEFT         &kp DOWN   &kp RIGHT     &kp LC(TAB)
-&kp PERIOD  &kp N1  &kp N2        &kp N3           &kp PLUS      &kp LG(LBKT)    &kp F7     &kp LG(M)  &kp F8  &kp LG(RBKT)
-&trans      &kp N0  &kp NUMBER_0  &lt 18 NUMBER_0  &trans        &trans        &trans           &trans     &trans        &kp LG(LS(N4))
+&kp SLASH   &kp N7  &kp N8        &kp N9           &kp EQUAL     &kp LC(LEFT)     &kp F2    &kp UP     &kp F4     &kp LC(RIGHT)
+&kp MINUS   &kp N4  &kp N5        &kp N6           &kp ASTERISK  &kp LC(LS(TAB))  &kp LEFT  &kp DOWN   &kp RIGHT  &kp LC(TAB)
+&kp PERIOD  &kp N1  &kp N2        &kp N3           &kp PLUS      &kp LG(LBKT)     &kp F7    &kp LG(M)  &kp F8     &kp LG(RBKT)
+&trans      &kp N0  &kp NUMBER_0  &lt 18 NUMBER_0  &trans        &trans           &trans    &trans     &trans     &kp LG(LS(N4))
             >;
         };
 
