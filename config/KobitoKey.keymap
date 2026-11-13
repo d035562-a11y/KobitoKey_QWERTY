@@ -444,10 +444,10 @@
         mac_MAP {
             label = "MAC_MAP";
             bindings = <
-&kp LG(LS(N4))  &kp LC(UP)    &kp F11   &trans    &kp F12     &kp LS(N1)  &kp LS(SLASH)  &kp LS(GRAVE)  &kp DQT     &kp LS(N7)
-&kp F2          &kp F4        &kp F7    &kp F8    &kp F5      &kp LS(N2)  &kp EQUAL      &kp LS(N9)     &kp LS(N0)  &kp COLON
-&kp C_VOL_DN    &kp C_VOL_UP  &macro_s  &macro_d  &kp C_MUTE  &kp LS(N4)  &kp BSLH       &kp LBKT       &kp RBKT    &kp LS(N5)
-&trans          &trans        &trans    &trans    &trans      &kp DELETE  &trans         &trans         &trans      &kp LS(N3)
+&kp LS(SLASH)  &kp LS(GRAVE)  &kp LS(N1)     &kp LS(N6)     &trans         &trans         &kp LS(MINUS)  &kp LBKT       &kp RBKT       &kp LS(N5)
+&kp LS(N2)     &kp SQT        &kp DQT        &trans         &kp GRAVE      &kp LS(N3)     &kp COLON      &kp LS(N9)     &kp LS(N0)     &kp EQUAL
+&trans         &kp LS(N8)     &kp LS(N4)     &kp LS(BSLH)   &kp BSLH       &kp LS(N7)     &kp LS(EQUAL)  &kp LS(COMMA)  &kp LS(DOT)    &trans
+&trans         &trans         &trans         &trans         &trans         &trans         &trans         &trans         &kp C_VOL_DN   &kp C_VOL_UP
             >;
         };
 
