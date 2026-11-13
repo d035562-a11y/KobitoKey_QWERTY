@@ -271,9 +271,9 @@
         ARROW_US {
             label = "ARROW_US";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9          &kp EQUAL     &kp RS(RG(LEFT))  &kp LC(LS(TAB))  &kp UP        &kp LC(TAB)    &kp RS(RG(RIGHT))
-&kp MINUS   &kp N4  &kp N5        &kp N6          &kp ASTERISK  &kp RG(RC(LEFT))  &kp LEFT         &kp DOWN      &kp RIGHT      &kp RG(RC(RIGHT))
-&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp PLUS      &kp LG(LEFT)      &kp LA(LEFT)     &kp LG(DOWN)  &kp LA(RIGHT)  &kp LG(RIGHT)
+&kp SLASH   &kp N7  &kp N8        &kp N9          &kp EQUAL     &kp RC(RG(LEFT))  &kp F2  &kp UP        &kp F4    &kp RG(RC(RIGHT))
+&kp MINUS   &kp N4  &kp N5        &kp N6          &kp ASTERISK  &kp LC(LS(TAB))  &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(TAB)
+&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp PLUS      &kp LA(LEFT)      &kp F7     &kp LG(DOWN)  &kp F8  &kp LA(RIGHT)
 &trans      &kp N0  &kp NUMBER_0  &lt 9 NUMBER_0  &trans        &trans            &trans           &trans        &trans         &kp LG(LS(S))
             >;
         };
@@ -283,9 +283,9 @@
         ARROW_JIS {
             label = "ARROW_JIS";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9          &kp LS(MINUS)  &kp RC(RG(LEFT))  &kp LC(LS(TAB))  &kp UP        &kp LC(TAB)    &kp RG(RC(RIGHT))
-&kp MINUS   &kp N4  &kp N5        &kp N6          &kp LS(SQT)    &trans            &kp LEFT         &kp DOWN      &kp RIGHT      &trans
-&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp LS(SEMI)   &kp LG(LEFT)      &kp LA(LEFT)     &kp LG(DOWN)  &kp LA(RIGHT)  &kp LG(RIGHT)
+&kp SLASH   &kp N7  &kp N8        &kp N9          &kp LS(MINUS)  &kp RC(RG(LEFT))  &kp F2  &kp UP        &kp F4    &kp RG(RC(RIGHT))
+&kp MINUS   &kp N4  &kp N5        &kp N6          &kp LS(SQT)    &kp LC(LS(TAB))            &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(TAB)
+&kp PERIOD  &kp N1  &kp N2        &kp N3          &kp LS(SEMI)   &kp LA(LEFT)      &kp F7     &kp LG(DOWN)  &kp F8  &kp LA(RIGHT)
 &trans      &kp N0  &kp NUMBER_0  &lt 9 NUMBER_0  &trans         &trans            &trans           &trans        &trans         &kp LG(LS(S))
             >;
         };
@@ -432,9 +432,9 @@
         mac_ARROW {
             label = "MAC_ARROW";
             bindings = <
-&kp SLASH   &kp N7  &kp N8        &kp N9           &kp EQUAL     &kp LC(LEFT)  &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)   &kp LC(RIGHT)
-&kp MINUS   &kp N4  &kp N5        &kp N6           &kp ASTERISK  &trans        &kp LEFT         &kp DOWN   &kp RIGHT     &trans
-&kp PERIOD  &kp N1  &kp N2        &kp N3           &kp PLUS      &ipad_left    &kp LG(LBKT)     &kp LG(M)  &kp LG(RBKT)  &ipad_right
+&kp SLASH   &kp N7  &kp N8        &kp N9           &kp EQUAL     &kp LC(LEFT)  &kp F2  &kp UP     &kp F4   &kp LC(RIGHT)
+&kp MINUS   &kp N4  &kp N5        &kp N6           &kp ASTERISK  &kp LC(LS(TAB))        &kp LEFT         &kp DOWN   &kp RIGHT     &kp LC(TAB)
+&kp PERIOD  &kp N1  &kp N2        &kp N3           &kp PLUS      &kp LG(LBKT)    &kp F7     &kp LG(M)  &kp F8  &kp LG(RBKT)
 &trans      &kp N0  &kp NUMBER_0  &lt 18 NUMBER_0  &trans        &trans        &trans           &trans     &trans        &kp LG(LS(N4))
             >;
         };
