@@ -423,7 +423,7 @@
 &trans                           &trans  &trans  &trans              &trans      &trans  &trans        &trans  &trans  &trans
 &trans                           &trans  &trans  &trans              &trans      &trans  &trans        &trans  &trans  &trans
 &trans                           &trans  &trans  &trans              &trans      &trans  &trans        &trans  &trans  &trans
-&mt LC(LEFT_CONTROL) LANGUAGE_2  &trans  &trans  &mt LEFT_GUI SPACE  &lt 17 TAB  &trans  &lt 16 ENTER  &trans  &trans  &trans
+&mt LC(LEFT_CONTROL) LANGUAGE_2  &trans  &trans  &mt LEFT_GUI SPACE  &lt 10 TAB  &trans  &lt 16 ENTER  &trans  &trans  &trans
             >;
         };
 
@@ -444,10 +444,10 @@
         mac_MAP {
             label = "MAC_MAP";
             bindings = <
-&kp LS(SLASH)  &kp LS(GRAVE)  &kp LS(N1)     &kp LS(N6)     &trans         &trans         &kp LS(MINUS)  &kp LBKT       &kp RBKT       &kp LS(N5)
-&kp LS(N2)     &kp SQT        &kp DQT        &trans         &kp GRAVE      &kp LS(N3)     &kp COLON      &kp LS(N9)     &kp LS(N0)     &kp EQUAL
-&trans         &kp LS(N8)     &kp LS(N4)     &kp LS(BSLH)   &kp BSLH       &kp LS(N7)     &kp LS(EQUAL)  &kp LS(COMMA)  &kp LS(DOT)    &trans
-&trans         &trans         &trans         &trans         &trans         &trans         &trans         &trans         &kp C_VOL_DN   &kp C_VOL_UP
+&kp LS(SLASH)  &kp LS(GRAVE)  &kp LS(N1)  &kp LS(N6)    &trans     &trans      &kp LS(MINUS)  &kp LBKT       &kp RBKT      &kp LS(N5)
+&kp LS(N2)     &kp SQT        &kp DQT     &trans        &kp GRAVE  &kp LS(N3)  &kp COLON      &kp LS(N9)     &kp LS(N0)    &kp EQUAL
+&trans         &kp LS(N8)     &kp LS(N4)  &kp LS(BSLH)  &kp BSLH   &kp LS(N7)  &kp LS(EQUAL)  &kp LS(COMMA)  &kp LS(DOT)   &trans
+&trans         &trans         &trans      &trans        &trans     &trans      &trans         &trans         &kp C_VOL_DN  &kp C_VOL_UP
             >;
         };
 
