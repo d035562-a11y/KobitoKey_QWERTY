@@ -37,7 +37,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        cpi = <200>; /* センサー感度 */
+        cpi = <600>; /* センサー感度 */
 
 
         evt-type = <INPUT_EV_REL>;
@@ -62,30 +62,6 @@
     };
 };
 
-&tb_left_listener {
-    status = "okay";
-    device = <&tb_left>;
-
-    input-processors =
-            <&sensor_rotation_left>,
-            <&zip_x_scaler 0 1>,
-            <&zip_y_scaler 1 15>,
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
-            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
-
-    /* iPad/iPhone用(レイヤー2が有効な間): 上下反転なし、左右のみ反転 */
-    scroller_ipad {
-        layers = <2>;
-        input-processors =
-            <&sensor_rotation_left>,
-            <&zip_x_scaler 0 1>,
-            <&zip_y_scaler 1 15>,
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
-    };
-};
-
 / {
   /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
     compatible = "zmk,input-processor-temp-layer";
@@ -94,17 +70,20 @@
   };
 };
 
-&tb_right_listener {
+&tb_left_listener {
     status = "okay";
+    device = <&tb_left>;
 
+    /* 左トラックボール = カーソル移動 + オートマウスレイヤー */
     input-processors =
-        <&sensor_rotation_right>,
+        <&sensor_rotation_left>,
         <&zip_temp_layer 7 5000>; /* オートマウスレイヤーの指定とトラボ操作及びマウスボタン押下後に滞留する時間 */
 
+    /* Pキー長押し(レイヤー8): 左トラックボールでスクロール */
     scroller {
         layers = <8>;
         input-processors =
-            <&sensor_rotation_right>,
+            <&sensor_rotation_left>,
             <&zip_x_scaler 0 1>,
             <&zip_y_scaler 1 15>,
             <&zip_xy_to_scroll_mapper>,
@@ -116,6 +95,30 @@
     scroller_ipad {
         layers = <14>;
         input-processors =
+            <&sensor_rotation_left>,
+            <&zip_x_scaler 0 1>,
+            <&zip_y_scaler 1 15>,
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
+    };
+};
+
+&tb_right_listener {
+    status = "okay";
+
+    /* 右トラックボール = 常にスクロール */
+    input-processors =
+        <&sensor_rotation_right>,
+        <&zip_x_scaler 0 1>,
+        <&zip_y_scaler 1 15>,
+        <&zip_xy_to_scroll_mapper>,
+        <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+        <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
+
+    /* iPad/iPhone用(レイヤー2が有効な間): 上下反転なし、左右のみ反転 */
+    scroller_ipad {
+        layers = <2>;
+        input-processors =
             <&sensor_rotation_right>,
             <&zip_x_scaler 0 1>,
             <&zip_y_scaler 1 15>,
@@ -126,9 +129,9 @@
 
 &zip_temp_layer {
     excluded-positions = <
-        6
-        7
-        8
+        1
+        2
+        3
         10
         19
         20
