@@ -343,10 +343,10 @@
         SYSTEM {
             label = "SYSTEM";
             bindings = <
-&bt0_jis     &bt1_us        &bt2_us   &bt3_us   &bt4_ipad  &trans  &trans  &trans  &trans      &trans
-&ind_bat     &kp LG(LS(S))  &macro_d  &macro_s  &trans     &trans  &trans  &trans  &trans      &trans
-&trans       &trans         &trans    &trans    &trans     &trans  &trans  &trans  &trans      &trans
-&bootloader  &trans         &trans    &trans    &trans     &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL
+&bt0_jis     &bt1_us        &bt2_us   &bt3_us   &bt4_ipad  &trans  &trans  &trans  &trans          &trans
+&ind_bat     &kp LG(LS(S))  &macro_s  &macro_s  &trans     &trans  &trans  &trans  &trans          &trans
+&trans       &trans         &trans    &trans    &trans     &trans  &trans  &trans  &trans          &trans
+&bootloader  &trans         &trans    &trans    &trans     &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_CLR
             >;
         };
 
@@ -456,10 +456,10 @@
         mac_SYSTEM {
             label = "MAC_SYSTEM";
             bindings = <
-&bt0_jis     &bt1_us         &bt2_us   &bt3_us   &bt4_ipad  &none  &none  &none  &none       &none
-&ind_bat     &kp LG(LS(N4))  &macro_d  &macro_s  &none      &none  &none  &none  &none       &none
-&none        &none           &none     &none     &none      &none  &none  &none  &none       &none
-&bootloader  &none           &none     &none     &none      &none  &none  &none  &bt BT_CLR  &bt BT_CLR_ALL
+&bt0_jis     &bt1_us         &bt2_us   &bt3_us   &bt4_ipad  &none  &none  &none  &none           &none
+&ind_bat     &kp LG(LS(N4))  &macro_d  &macro_s  &none      &none  &none  &none  &none           &none
+&none        &none           &none     &none     &none      &none  &none  &none  &none           &none
+&bootloader  &none           &none     &none     &none      &none  &none  &none  &bt BT_CLR_ALL  &bt BT_CLR
             >;
         };
 
