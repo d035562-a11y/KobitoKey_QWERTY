@@ -51,7 +51,7 @@
     };
 
     macros {
-        macro_s: macro_s {
+        macro_id: macro_s {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -60,7 +60,7 @@
             label = "MACRO_S";
         };
 
-        macro_d: macro_d {
+        macro_ps: macro_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
@@ -310,7 +310,7 @@
 &kp LS(N1)  &kp LS(SLASH)  &kp LS(EQUAL)  &kp LS(N2)  &kp LS(N6)  &kp SLASH    &kp N7  &kp N8  &kp N9        &kp MINUS
 &kp LBKT    &kp LS(MINUS)  &kp LS(N8)     &kp LS(N9)  &kp SQT     &kp RS(SQT)  &kp N4  &kp N5  &kp N6        &kp RS(SEMICOLON)
 &kp LS(N4)  &kp INT1       &kp RBKT       &kp BSLH    &kp LS(N5)  &kp DOT      &kp N1  &kp N2  &kp N3        &kp ENTER
-&macro_s    &macro_d       &kp LS(N3)     &trans      &trans      &trans       &kp N0  &kp N0  &kp NUMBER_0  &trans
+&macro_id   &macro_ps      &kp LS(N3)     &trans      &trans      &trans       &kp N0  &kp N0  &kp NUMBER_0  &trans
             >;
         };
 
@@ -343,10 +343,10 @@
         SYSTEM {
             label = "SYSTEM";
             bindings = <
-&bt0_jis     &bt1_us        &bt2_us   &bt3_us   &bt4_ipad  &trans  &trans  &trans  &trans          &trans
-&ind_bat     &kp LG(LS(S))  &macro_s  &macro_s  &trans     &trans  &trans  &trans  &trans          &trans
-&trans       &trans         &trans    &trans    &trans     &trans  &trans  &trans  &trans          &trans
-&bootloader  &trans         &trans    &trans    &trans     &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_CLR
+&bt0_jis     &bt1_us        &bt2_us    &bt3_us    &bt4_ipad  &trans  &trans  &trans  &trans          &trans
+&ind_bat     &kp LG(LS(S))  &macro_id  &macro_id  &trans     &trans  &trans  &trans  &trans          &trans
+&trans       &trans         &trans     &trans     &trans     &trans  &trans  &trans  &trans          &trans
+&bootloader  &trans         &trans     &trans     &trans     &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_CLR
             >;
         };
 
@@ -456,10 +456,10 @@
         mac_SYSTEM {
             label = "MAC_SYSTEM";
             bindings = <
-&bt0_jis     &bt1_us         &bt2_us   &bt3_us   &bt4_ipad  &none  &none  &none  &none           &none
-&ind_bat     &kp LG(LS(N4))  &macro_d  &macro_s  &none      &none  &none  &none  &none           &none
-&none        &none           &none     &none     &none      &none  &none  &none  &none           &none
-&bootloader  &none           &none     &none     &none      &none  &none  &none  &bt BT_CLR_ALL  &bt BT_CLR
+&bt0_jis     &bt1_us         &bt2_us    &bt3_us     &bt4_ipad  &none  &none  &none  &none           &none
+&ind_bat     &kp LG(LS(N4))  &macro_id  &caps_word  &none      &none  &none  &none  &none           &none
+&none        &none           &none      &none       &none      &none  &none  &none  &none           &none
+&bootloader  &none           &none      &none       &none      &none  &none  &none  &bt BT_CLR_ALL  &bt BT_CLR
             >;
         };
 
